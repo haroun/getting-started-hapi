@@ -1,0 +1,37 @@
+{
+  "name": "getting-started-hapi",
+  "version": "0.0.1",
+  "description": "Getting started with Hapi",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "start": "node server.js",
+    "test": "npm lint && echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroun/getting-started-hapi.git"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "Harouna Traore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haroun/getting-started-hapi/issues"
+  },
+  "homepage": "https://github.com/haroun/getting-started-hapi#readme",
+  "dependencies": {
+    "good": "^7.2.0",
+    "good-console": "^6.4.0",
+    "good-squeeze": "^5.0.2",
+    "hapi": "^16.1.1",
+    "inert": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
