@@ -1,0 +1,13 @@
+extends: airbnb-base
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: module
+env:
+  node: true
+  es6: true
+plugins:
+  - eslint-plugin-import
+rules:
+  comma-dangle: off
+  strict: error
+  no-console: off # we're using node
